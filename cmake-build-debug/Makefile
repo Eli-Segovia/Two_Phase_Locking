@@ -150,6 +150,60 @@ Database.cpp.s:
 	$(MAKE) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/Database.cpp.s
 .PHONY : Database.cpp.s
 
+LockManager.o: LockManager.cpp.o
+
+.PHONY : LockManager.o
+
+# target to build an object file
+LockManager.cpp.o:
+	$(MAKE) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.o
+.PHONY : LockManager.cpp.o
+
+LockManager.i: LockManager.cpp.i
+
+.PHONY : LockManager.i
+
+# target to preprocess a source file
+LockManager.cpp.i:
+	$(MAKE) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.i
+.PHONY : LockManager.cpp.i
+
+LockManager.s: LockManager.cpp.s
+
+.PHONY : LockManager.s
+
+# target to generate assembly for a file
+LockManager.cpp.s:
+	$(MAKE) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.s
+.PHONY : LockManager.cpp.s
+
+Transaction.o: Transaction.cpp.o
+
+.PHONY : Transaction.o
+
+# target to build an object file
+Transaction.cpp.o:
+	$(MAKE) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.o
+.PHONY : Transaction.cpp.o
+
+Transaction.i: Transaction.cpp.i
+
+.PHONY : Transaction.i
+
+# target to preprocess a source file
+Transaction.cpp.i:
+	$(MAKE) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.i
+.PHONY : Transaction.cpp.i
+
+Transaction.s: Transaction.cpp.s
+
+.PHONY : Transaction.s
+
+# target to generate assembly for a file
+Transaction.cpp.s:
+	$(MAKE) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.s
+.PHONY : Transaction.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +243,12 @@ help:
 	@echo "... Database.o"
 	@echo "... Database.i"
 	@echo "... Database.s"
+	@echo "... LockManager.o"
+	@echo "... LockManager.i"
+	@echo "... LockManager.s"
+	@echo "... Transaction.o"
+	@echo "... Transaction.i"
+	@echo "... Transaction.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
