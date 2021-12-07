@@ -8,6 +8,7 @@
 
 
 class Transaction {
+private:
 
 public:
     Transaction(int k);
@@ -15,7 +16,7 @@ public:
 
     void Read(Database & db, int source, int dest);
 
-    void Write(Database& db, int source, int dest);
+    void Write(Database & db, int source, int dest);
 
     void Add(int source, int v);
 

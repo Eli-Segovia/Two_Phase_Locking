@@ -5,7 +5,7 @@
 #include "Transaction.h"
 
 Transaction::Transaction(int k) {
-    // do something
+
 }
 
 

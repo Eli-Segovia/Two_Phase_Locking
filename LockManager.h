@@ -10,8 +10,18 @@
 
 class LockManager {
 
+private:
+    enum LockType {
+        NO_LOCK,
+        S_LOCK,
+        X_LOCK
+    };
+
+    std::vector< LockType > resourceLocks;
+    std::vector< std::vector <LockType > > locks;
+
 public:
-    LockManager(); // TODO implement with args
+    LockManager(int k, int t); // TODO implement with args
 
 
     int Request(int t_id, int k, bool is_s_lock);
