@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLocking.a  CMakeFiles/Locking.dir/LockManager.cpp.o CMakeFiles/Locking.dir/Transaction.cpp.o CMakeFiles/Locking.dir/Database.cpp.o
+/usr/bin/ranlib libLocking.a

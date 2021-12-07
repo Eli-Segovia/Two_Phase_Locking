@@ -1,3 +1,4 @@
-/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Two_Phase_Locking.dir
-/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Two_Phase_Locking.dir
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Locking.dir

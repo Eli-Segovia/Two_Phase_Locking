@@ -1,4 +1,4 @@
-# Install script for directory: /home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking
+# Install script for directory: /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+  set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

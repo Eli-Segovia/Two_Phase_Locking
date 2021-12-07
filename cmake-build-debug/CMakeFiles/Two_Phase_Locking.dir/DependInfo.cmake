@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/Database.cpp" "/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Two_Phase_Locking.dir/Database.cpp.o"
-  "/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/LockManager.cpp" "/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.o"
-  "/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/cmake-build-debug/Transaction.cpp" "/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.o"
-  "/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/main.cpp" "/home/osboxes/Documents/School_Stuff/File_DB/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Two_Phase_Locking.dir/main.cpp.o"
+  "/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/main.cpp" "/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Two_Phase_Locking.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

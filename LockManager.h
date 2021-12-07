@@ -11,11 +11,14 @@
 class LockManager {
 
 private:
+
     enum LockType {
         NO_LOCK,
         S_LOCK,
         X_LOCK
     };
+
+private:
 
     std::vector< LockType > resourceLocks;
     std::vector< std::vector <LockType > > locks;
