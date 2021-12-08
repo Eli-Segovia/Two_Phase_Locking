@@ -3,6 +3,5 @@ project(Two_Phase_Locking)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(Locking LockManager.cpp Transaction.cpp Database.cpp)
 
-add_executable(Two_Phase_Locking main.cpp)
+add_executable(Two_Phase_Locking main.cpp LockManager.cpp Transaction.cpp Database.cpp)

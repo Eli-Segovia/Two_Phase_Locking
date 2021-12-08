@@ -74,7 +74,6 @@ CMAKE_BINARY_DIR = /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_
 
 # The main recursive "all" target.
 all: CMakeFiles/Two_Phase_Locking.dir/all
-all: CMakeFiles/Locking.dir/all
 
 .PHONY : all
 
@@ -85,7 +84,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Two_Phase_Locking.dir/clean
-clean: CMakeFiles/Locking.dir/clean
 
 .PHONY : clean
 
@@ -96,12 +94,12 @@ clean: CMakeFiles/Locking.dir/clean
 CMakeFiles/Two_Phase_Locking.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Two_Phase_Locking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Two_Phase_Locking"
 .PHONY : CMakeFiles/Two_Phase_Locking.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Two_Phase_Locking.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Two_Phase_Locking.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Two_Phase_Locking.dir/rule
@@ -115,33 +113,6 @@ Two_Phase_Locking: CMakeFiles/Two_Phase_Locking.dir/rule
 CMakeFiles/Two_Phase_Locking.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/clean
 .PHONY : CMakeFiles/Two_Phase_Locking.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Locking.dir
-
-# All Build rule for target.
-CMakeFiles/Locking.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Locking"
-.PHONY : CMakeFiles/Locking.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Locking.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Locking.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Locking.dir/rule
-
-# Convenience name for target.
-Locking: CMakeFiles/Locking.dir/rule
-
-.PHONY : Locking
-
-# clean rule for target.
-CMakeFiles/Locking.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/clean
-.PHONY : CMakeFiles/Locking.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

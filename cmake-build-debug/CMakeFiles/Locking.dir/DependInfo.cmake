@@ -5,8 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Database.cpp" "/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Locking.dir/Database.cpp.o"
-  "/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.cpp" "/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Locking.dir/LockManager.cpp.o"
-  "/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.cpp" "/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles/Locking.dir/Transaction.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

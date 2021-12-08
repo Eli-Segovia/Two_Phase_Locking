@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Locking.dir/Database.cpp.o"
-  "CMakeFiles/Locking.dir/LockManager.cpp.o"
-  "CMakeFiles/Locking.dir/Transaction.cpp.o"
   "libLocking.a"
   "libLocking.pdb"
 )

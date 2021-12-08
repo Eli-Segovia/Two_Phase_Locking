@@ -77,35 +77,9 @@ include CMakeFiles/Locking.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Locking.dir/flags.make
 
-CMakeFiles/Locking.dir/LockManager.cpp.o: CMakeFiles/Locking.dir/flags.make
-CMakeFiles/Locking.dir/LockManager.cpp.o: ../LockManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Locking.dir/LockManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Locking.dir/LockManager.cpp.o -c /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.cpp
-
-CMakeFiles/Locking.dir/LockManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Locking.dir/LockManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.cpp > CMakeFiles/Locking.dir/LockManager.cpp.i
-
-CMakeFiles/Locking.dir/LockManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Locking.dir/LockManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.cpp -o CMakeFiles/Locking.dir/LockManager.cpp.s
-
-CMakeFiles/Locking.dir/Transaction.cpp.o: CMakeFiles/Locking.dir/flags.make
-CMakeFiles/Locking.dir/Transaction.cpp.o: ../Transaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Locking.dir/Transaction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Locking.dir/Transaction.cpp.o -c /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.cpp
-
-CMakeFiles/Locking.dir/Transaction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Locking.dir/Transaction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.cpp > CMakeFiles/Locking.dir/Transaction.cpp.i
-
-CMakeFiles/Locking.dir/Transaction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Locking.dir/Transaction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.cpp -o CMakeFiles/Locking.dir/Transaction.cpp.s
-
 CMakeFiles/Locking.dir/Database.cpp.o: CMakeFiles/Locking.dir/flags.make
 CMakeFiles/Locking.dir/Database.cpp.o: ../Database.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Locking.dir/Database.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Locking.dir/Database.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Locking.dir/Database.cpp.o -c /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Database.cpp
 
 CMakeFiles/Locking.dir/Database.cpp.i: cmake_force
@@ -118,19 +92,15 @@ CMakeFiles/Locking.dir/Database.cpp.s: cmake_force
 
 # Object files for target Locking
 Locking_OBJECTS = \
-"CMakeFiles/Locking.dir/LockManager.cpp.o" \
-"CMakeFiles/Locking.dir/Transaction.cpp.o" \
 "CMakeFiles/Locking.dir/Database.cpp.o"
 
 # External object files for target Locking
 Locking_EXTERNAL_OBJECTS =
 
-libLocking.a: CMakeFiles/Locking.dir/LockManager.cpp.o
-libLocking.a: CMakeFiles/Locking.dir/Transaction.cpp.o
 libLocking.a: CMakeFiles/Locking.dir/Database.cpp.o
 libLocking.a: CMakeFiles/Locking.dir/build.make
 libLocking.a: CMakeFiles/Locking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libLocking.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLocking.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Locking.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Locking.dir/link.txt --verbose=$(VERBOSE)
 

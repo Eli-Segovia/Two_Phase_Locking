@@ -143,26 +143,13 @@ Two_Phase_Locking/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/build
 .PHONY : Two_Phase_Locking/fast
 
-#=============================================================================
-# Target rules for targets named Locking
-
-# Build rule for target.
-Locking: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Locking
-.PHONY : Locking
-
-# fast build rule for target.
-Locking/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/build
-.PHONY : Locking/fast
-
 Database.o: Database.cpp.o
 
 .PHONY : Database.o
 
 # target to build an object file
 Database.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/Database.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/Database.cpp.o
 .PHONY : Database.cpp.o
 
 Database.i: Database.cpp.i
@@ -171,7 +158,7 @@ Database.i: Database.cpp.i
 
 # target to preprocess a source file
 Database.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/Database.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/Database.cpp.i
 .PHONY : Database.cpp.i
 
 Database.s: Database.cpp.s
@@ -180,7 +167,7 @@ Database.s: Database.cpp.s
 
 # target to generate assembly for a file
 Database.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/Database.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/Database.cpp.s
 .PHONY : Database.cpp.s
 
 LockManager.o: LockManager.cpp.o
@@ -189,7 +176,7 @@ LockManager.o: LockManager.cpp.o
 
 # target to build an object file
 LockManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/LockManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.o
 .PHONY : LockManager.cpp.o
 
 LockManager.i: LockManager.cpp.i
@@ -198,7 +185,7 @@ LockManager.i: LockManager.cpp.i
 
 # target to preprocess a source file
 LockManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/LockManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.i
 .PHONY : LockManager.cpp.i
 
 LockManager.s: LockManager.cpp.s
@@ -207,7 +194,7 @@ LockManager.s: LockManager.cpp.s
 
 # target to generate assembly for a file
 LockManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/LockManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.s
 .PHONY : LockManager.cpp.s
 
 Transaction.o: Transaction.cpp.o
@@ -216,7 +203,7 @@ Transaction.o: Transaction.cpp.o
 
 # target to build an object file
 Transaction.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/Transaction.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.o
 .PHONY : Transaction.cpp.o
 
 Transaction.i: Transaction.cpp.i
@@ -225,7 +212,7 @@ Transaction.i: Transaction.cpp.i
 
 # target to preprocess a source file
 Transaction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/Transaction.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.i
 .PHONY : Transaction.cpp.i
 
 Transaction.s: Transaction.cpp.s
@@ -234,7 +221,7 @@ Transaction.s: Transaction.cpp.s
 
 # target to generate assembly for a file
 Transaction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Locking.dir/build.make CMakeFiles/Locking.dir/Transaction.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Two_Phase_Locking.dir/build.make CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.s
 .PHONY : Transaction.cpp.s
 
 main.o: main.cpp.o
@@ -272,7 +259,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Locking"
 	@echo "... Two_Phase_Locking"
 	@echo "... Database.o"
 	@echo "... Database.i"

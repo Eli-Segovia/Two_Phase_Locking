@@ -79,66 +79,24 @@
 					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Locking">
-				<Option output="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/libLocking.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j6 -f &quot;/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/Makefile&quot;  VERBOSE=1 Locking"/>
-					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Locking/fast">
-				<Option output="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/libLocking.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j6 -f &quot;/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/Makefile&quot;  VERBOSE=1 Locking/fast"/>
-					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Database.cpp">
-			<Option target="Locking"/>
+			<Option target="Two_Phase_Locking"/>
 		</Unit>
 		<Unit filename="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Database.h">
-			<Option target="Locking"/>
+			<Option target="Two_Phase_Locking"/>
 		</Unit>
 		<Unit filename="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.cpp">
-			<Option target="Locking"/>
+			<Option target="Two_Phase_Locking"/>
 		</Unit>
 		<Unit filename="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.h">
-			<Option target="Locking"/>
+			<Option target="Two_Phase_Locking"/>
 		</Unit>
 		<Unit filename="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.cpp">
-			<Option target="Locking"/>
+			<Option target="Two_Phase_Locking"/>
 		</Unit>
 		<Unit filename="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.h">
-			<Option target="Locking"/>
+			<Option target="Two_Phase_Locking"/>
 		</Unit>
 		<Unit filename="/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/main.cpp">
 			<Option target="Two_Phase_Locking"/>

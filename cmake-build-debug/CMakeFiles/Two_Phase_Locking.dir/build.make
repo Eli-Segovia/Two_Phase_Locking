@@ -90,17 +90,62 @@ CMakeFiles/Two_Phase_Locking.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Two_Phase_Locking.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/main.cpp -o CMakeFiles/Two_Phase_Locking.dir/main.cpp.s
 
+CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.o: CMakeFiles/Two_Phase_Locking.dir/flags.make
+CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.o: ../LockManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.o -c /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.cpp
+
+CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.cpp > CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.i
+
+CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.cpp -o CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.s
+
+CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.o: CMakeFiles/Two_Phase_Locking.dir/flags.make
+CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.o: ../Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.o -c /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.cpp
+
+CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.cpp > CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.i
+
+CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.cpp -o CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.s
+
+CMakeFiles/Two_Phase_Locking.dir/Database.cpp.o: CMakeFiles/Two_Phase_Locking.dir/flags.make
+CMakeFiles/Two_Phase_Locking.dir/Database.cpp.o: ../Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Two_Phase_Locking.dir/Database.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Two_Phase_Locking.dir/Database.cpp.o -c /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Database.cpp
+
+CMakeFiles/Two_Phase_Locking.dir/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Two_Phase_Locking.dir/Database.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Database.cpp > CMakeFiles/Two_Phase_Locking.dir/Database.cpp.i
+
+CMakeFiles/Two_Phase_Locking.dir/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Two_Phase_Locking.dir/Database.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Database.cpp -o CMakeFiles/Two_Phase_Locking.dir/Database.cpp.s
+
 # Object files for target Two_Phase_Locking
 Two_Phase_Locking_OBJECTS = \
-"CMakeFiles/Two_Phase_Locking.dir/main.cpp.o"
+"CMakeFiles/Two_Phase_Locking.dir/main.cpp.o" \
+"CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.o" \
+"CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.o" \
+"CMakeFiles/Two_Phase_Locking.dir/Database.cpp.o"
 
 # External object files for target Two_Phase_Locking
 Two_Phase_Locking_EXTERNAL_OBJECTS =
 
 Two_Phase_Locking: CMakeFiles/Two_Phase_Locking.dir/main.cpp.o
+Two_Phase_Locking: CMakeFiles/Two_Phase_Locking.dir/LockManager.cpp.o
+Two_Phase_Locking: CMakeFiles/Two_Phase_Locking.dir/Transaction.cpp.o
+Two_Phase_Locking: CMakeFiles/Two_Phase_Locking.dir/Database.cpp.o
 Two_Phase_Locking: CMakeFiles/Two_Phase_Locking.dir/build.make
 Two_Phase_Locking: CMakeFiles/Two_Phase_Locking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Two_Phase_Locking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Two_Phase_Locking"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Two_Phase_Locking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

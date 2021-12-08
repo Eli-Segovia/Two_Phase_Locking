@@ -6,7 +6,35 @@
 
 #IncludeRegexTransform: 
 
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Database.h
+vector
+-
+iostream
+-
+
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.h
+vector
+-
+
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.h
+Database.h
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Database.h
+vector
+-
+string
+-
+stack
+-
+sstream
+-
+fstream
+-
+
 /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/main.cpp
 iostream
 -
+LockManager.h
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/LockManager.h
+Transaction.h
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.h
 
