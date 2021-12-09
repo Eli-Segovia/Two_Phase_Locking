@@ -20,14 +20,17 @@ void Transaction::Read(Database & db, int source, int dest) {
 }
 
 void Transaction::Write(Database& db, int source, int dest) {
+    db.Write(dest, this->local[source]);
     return;
 }
 
 void Transaction::Add(int source, int v) {
+    this->local[source] = this->local[source] + v;
     return;
 }
 
 void Transaction::Sub(int source, int v) {
+    this->local[source] = this->local[source] - v;
     return;
 }
 

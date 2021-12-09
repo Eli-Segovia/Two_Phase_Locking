@@ -123,14 +123,12 @@ public:
             char opType;
             int x, y;
             std::getline(inFile, line);
-            std::cout << line << std::endl;
             std::stringstream ss(line);
 
             ss >> opType;
             ss >> x;
             ss >> y;
             OperationEntry op = buildOperation(opType, x, y);
-            std::cout << op.operation << std::endl;
             ops.push_back(op);
 
         }
@@ -140,7 +138,6 @@ public:
         }
         return builtTransaction;
     }
-
 
 };
 

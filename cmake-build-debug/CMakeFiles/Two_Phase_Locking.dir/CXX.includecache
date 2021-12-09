@@ -16,6 +16,10 @@ iostream
 vector
 -
 
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.cpp
+Transaction.h
+/home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.h
+
 /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Transaction.h
 Database.h
 /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/Database.h
@@ -28,6 +32,8 @@ stack
 sstream
 -
 fstream
+-
+set
 -
 
 /home/esegovia/Documents/School_Stuff/DB_File_Mgmt/Two_Phase_Locking/main.cpp
