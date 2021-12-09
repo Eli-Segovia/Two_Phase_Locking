@@ -83,7 +83,7 @@ public:
 
 class TransactionBuilder {
 private:
-    static OperationEntry buildOperation(char op, int x, int y) {
+    static OperationEntry buildOperation(char op, int x = 0, int y = 0) {
         switch (op) {
             case 'R':
                 return OperationEntry(DB_READ, x, y);
@@ -126,8 +126,10 @@ public:
             std::stringstream ss(line);
 
             ss >> opType;
-            ss >> x;
-            ss >> y;
+            if (opType != 'P') {
+                ss >> x;
+                ss >> y;
+            }
             OperationEntry op = buildOperation(opType, x, y);
             ops.push_back(op);
 

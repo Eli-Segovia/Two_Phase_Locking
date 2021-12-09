@@ -19,7 +19,7 @@ void performDatabaseOperation(OperationEntry operationEntry, Database& db, Trans
     else if (operationEntry.operation == DB_WRITE) {
         transaction.Write(db, operationEntry.x, operationEntry.y);
     }
-    else if (operationEntry.operation == DB_READ) {
+    else if (operationEntry.operation == DB_PRINT) {
         db.Print();
     }
 }
@@ -40,21 +40,18 @@ void performLocalOperation(OperationEntry operationEntry, Transaction & transact
 }
 
 int main(int argc, char* argv[]) {
-    const int dbSize = std::atoi(argv[1]);
-    const int transactionCount = argc - 2;
-
     /* Administrative stuff
      *
      * ----------------------------------------------------------------------------------------------
      */
     /* Just translation for operationCode to String  */
-    const std::vector<std::string> getOperation ={ "DB_READ",
-                                             "DB_WRITE",
-                                             "DB_PRINT",
-                                             "LOCAL_ADD",
-                                             "LOCAL_SUB",
-                                             "LOCAL_CPY",
-                                             "LOCAL_CMB",
+    const std::vector<std::string> getOperation ={ "READ",
+                                             "WRITE",
+                                             "PRINT",
+                                             "ADD",
+                                             "SUB",
+                                             "COPY",
+                                             "COMBINE",
                                              "NO_OP"};
     // seed rand()
     srand (time(NULL));
@@ -71,8 +68,12 @@ int main(int argc, char* argv[]) {
         if(argc == 2) {
             std::cout << "Please provide file for Transactions" << std::endl;
         }
+        std::cout << std::endl;
         return -1;
     }
+
+    const int dbSize = std::atoi(argv[1]);
+    const int transactionCount = argc - 2;
 
     readTransactions(transactions, argc, argv);
 
@@ -99,20 +100,29 @@ int main(int argc, char* argv[]) {
         const bool is_s_lock = nextOp.operation == DB_READ || nextOp.operation == DB_PRINT;
         const bool transactionRequiresLock = is_s_lock || nextOp.operation == DB_WRITE;
 
+        // print current operation to be executed
         std::cout << "T" << selectedTransaction.t_id << " executes " << getOperation[nextOp.operation] << std::endl;
 
-        // if transaction needs to access the database...
+        // if transaction needs to access the database, we need to do some extra checks.
         if( transactionRequiresLock ) {
+
             const char lockType = is_s_lock ? 'S' : 'X';
+
             std::cout << "T" << selectedTransaction.t_id << " requests " << lockType << "-lock on item " << nextOp.x << " :";
 
+            // check with lock manager if request can be granted...
             int requestGrantCode = lockManager.Request(selectedTransaction.t_id, nextOp.x, is_s_lock);
+
+            // if request is granted, perform the operation and clear all the boolean flags
             if (requestGrantCode == 1) {
                 std::cout << "G" << std::endl;
                 performDatabaseOperation(nextOp, db, selectedTransaction);
                 lockManager.UnblockAllTransactions();
                 selectedTransaction.operations.pop();
-            } else {
+            }
+
+            // else the operation does not get granted
+            else {
                 lockManager.BlockTransaction(selectedTransaction.t_id);
                 std::cout << "D" << std::endl;
                 if (lockManager.GetBlockedCount() == transactions.size()) {
@@ -121,13 +131,16 @@ int main(int argc, char* argv[]) {
                 }
             }
         }
-        // else transaction just does a local update
+
+        // If transaction does not need lock, then we simply do the local update
         else {
             lockManager.UnblockAllTransactions();
             performLocalOperation(nextOp, selectedTransaction);
             selectedTransaction.operations.pop();
         }
         std::cout << std::endl;
+
+
         // remove empty Transactions
         if (selectedTransaction.operations.empty()) {
             lockManager.ReleaseAll(selectedTransaction.t_id);
